@@ -1,0 +1,36 @@
+.banner {
+  background: -webkit-gradient(linear, left top, right top, from(#6a11cb), to(#2575fc));
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.banner__content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.banner__title {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+.banner__description {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+.banner__button {
+  display: inline-block;
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+.banner__button:hover {
+  background-color: #ff3d2e;
+}
